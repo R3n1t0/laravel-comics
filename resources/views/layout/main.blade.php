@@ -11,9 +11,11 @@
   <link rel="stylesheet" href="{{ asset("css/app.css") }}">
   <title>CD Comics</title>
 </head>
-<body class="d-flex">
+<body>
 
   @include("partials.header")
+
+  @include("partials.jumbotron")
 
   @yield("content")
 
