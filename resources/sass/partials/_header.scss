@@ -1,0 +1,28 @@
+header{
+    @include between();
+        width: 70%;
+        height: 120px;
+    img{
+        width: 80px;
+        height: 80px;
+    }
+    ul{
+        @include between();
+        list-style: none;
+
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 10px;
+            font-weight: bold;
+            padding: 0px 15px;
+            &:hover,
+            &.active{
+                color: $primary-color;
+            }
+
+        }
+
+    }
+
+}

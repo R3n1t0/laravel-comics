@@ -1,3 +1,36 @@
-body {
-  background-color: yellow;
+ul {
+  list-style: none;
+}
+
+h5 {
+  padding-left: 30px;
+  font-weight: bold;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  height: 120px;
+}
+header img {
+  width: 80px;
+  height: 80px;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+header ul a {
+  text-decoration: none;
+  color: black;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 0px 15px;
+}
+header ul a:hover, header ul a.active {
+  color: #0282f9;
 }
