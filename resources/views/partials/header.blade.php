@@ -5,7 +5,7 @@
   <nav>
     <ul>
       <li>
-        <a href="{{ route("caracters") }}">CHARACTERS</a>
+        <a href="{{ route("characters") }}">CHARACTERS</a>
         <a href="{{ route("comics") }}">COMICS</a>
         <a href="{{ route("movies") }}">MOVIES</a>
         <a href="{{ route("games") }}">GAMES</a>

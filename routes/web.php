@@ -42,4 +42,7 @@ Route::get('/shop', function () {
 })->name("shop");;
 Route::get('/videos', function () {
     return view('videos');
-})->name("videos");;
+})->name("videos");
+Route::get('/games', function () {
+    return view('games');
+})->name("games");
