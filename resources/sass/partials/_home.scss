@@ -1,0 +1,39 @@
+main{
+    width: 100%;
+    background-color: #1c1c1c;
+    text-align: center;
+
+    .cards-container{
+
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        .card{
+            flex-basis: calc(100% /6);
+            padding-top: 20px;
+            img{
+              width: 145px;
+              height: 160px;
+              object-fit: cover;
+            }
+
+            p{
+              font-size: 15px;
+              /* color: white; */
+            }
+        }
+    }
+
+    button{
+        padding: 5px 30px;
+        margin-bottom: 2rem;
+        background-color: $primary-color;
+        border: none;
+        color: white;
+        font-weight: bold;
+    }
+}
+
+
+
