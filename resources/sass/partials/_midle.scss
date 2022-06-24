@@ -1,0 +1,25 @@
+.container-fluid{
+    @include center();
+    height: 150px;
+    background-color: $primary-color;
+
+    .container{
+      @include center();
+
+      .digital-dc{
+        @include between();
+        margin-right: 45px;
+        img{
+          width: 30px;
+          margin: 15px;
+        }
+
+        p{
+          font-size: 12px;
+          color: white;
+          margin-bottom: 0;
+        }
+      }
+    }
+
+  }

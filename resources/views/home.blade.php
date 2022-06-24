@@ -11,7 +11,6 @@
                     <p>{{ $card->title}}</p>
                 </div>
             @endforeach
-
         </div>
         <button>LOAD MORE</button>
     </main>

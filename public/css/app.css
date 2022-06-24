@@ -87,6 +87,94 @@ main button {
   font-weight: bold;
 }
 
+.container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background-color: #0282f9;
+}
+.container-fluid .container, .container-xxl .container, .container-xl .container, .container-lg .container, .container-md .container, .container-sm .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-fluid .container .digital-dc, .container-xxl .container .digital-dc, .container-xl .container .digital-dc, .container-lg .container .digital-dc, .container-md .container .digital-dc, .container-sm .container .digital-dc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 45px;
+}
+.container-fluid .container .digital-dc img, .container-xxl .container .digital-dc img, .container-xl .container .digital-dc img, .container-lg .container .digital-dc img, .container-md .container .digital-dc img, .container-sm .container .digital-dc img {
+  width: 30px;
+  margin: 15px;
+}
+.container-fluid .container .digital-dc p, .container-xxl .container .digital-dc p, .container-xl .container .digital-dc p, .container-lg .container .digital-dc p, .container-md .container .digital-dc p, .container-sm .container .digital-dc p {
+  font-size: 12px;
+  color: white;
+  margin-bottom: 0;
+}
+
+footer {
+  background-image: url(/img/footer-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 330px;
+  color: white;
+  height: 110px;
+  background-color: #303030;
+}
+footer .credits-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+  height: 100%;
+}
+footer .credits-container .credits {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+footer .credits-container .credits li {
+  font-size: 12px;
+  color: gray;
+}
+footer .credits-container .immagine {
+  background-image: url(/img/dc-logo-bg.png);
+  background-size: cover;
+  background-position: center;
+  width: 45%;
+  height: 100%;
+}
+footer .social-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+}
+footer .social-container button {
+  background-color: #303030;
+  color: white;
+  border: 2px solid #0282f9;
+  padding: 8px 13px;
+}
+footer .social-container .social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .social-container .social h5, footer .social-container .social .h5 {
+  color: #0282f9;
+  margin-right: 20px;
+}
+footer .social-container .social img {
+  margin-left: 20px;
+}
+
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
